@@ -1,207 +1,313 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Nysha%20Katiyar&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20%7C%20AI%2FML%20%7C%20IoT%20%7C%20Web3&descAlignY=58&descSize=20&animation=fadeIn" />
+<!-- HERO: Custom SVG Aurora Banner -->
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aurora1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="40%" style="stop-color:#1a0533"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="220" fill="url(#aurora1)" rx="18"/>
+
+  <!-- Aurora Beams -->
+  <ellipse cx="200" cy="60" rx="320" ry="55" fill="url(#g1)" filter="url(#blur1)" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" values="0,0;40,20;0,0" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="90" rx="280" ry="45" fill="url(#g2)" filter="url(#blur1)" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-30,15;0,0" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="430" cy="140" rx="350" ry="40" fill="url(#g3)" filter="url(#blur2)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0,0;20,-10;0,0" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Floating particles -->
+  <circle cx="80" cy="40" r="1.5" fill="#a78bfa" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="40;30;40" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="60" r="1" fill="#67e8f9" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;45;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="25" r="2" fill="#c084fc" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="170" r="1.5" fill="#818cf8" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="180" r="1" fill="#a78bfa" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Name Text -->
+  <text x="430" y="100" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="800" fill="white" text-anchor="middle" letter-spacing="2" opacity="0.97">NYSHA KATIYAR</text>
+
+  <!-- Subtitle -->
+  <text x="430" y="135" font-family="'Segoe UI', monospace, sans-serif" font-size="15" fill="#a78bfa" text-anchor="middle" letter-spacing="4">FULL STACK  ✦  AI/ML  ✦  IoT  ✦  WEB3</text>
+
+  <!-- Tagline -->
+  <text x="430" y="170" font-family="'Segoe UI', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle" font-style="italic">"Building at the intersection of intelligence, connectivity &amp; decentralization"</text>
+
+  <!-- Bottom glow line -->
+  <rect x="200" y="195" width="460" height="2" rx="1" fill="url(#g1)" opacity="0.7"/>
+</svg>
+
+<br/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=B.Tech+CS+(IoT+%26+IS)+%40+MUJ;Full+Stack+Developer;AI%2FML+Engineer;Web3+%26+Blockchain+Enthusiast;DSA+Solver+%7C+250%2B+LeetCode+Problems" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=700&lines=🎓+B.Tech+CS+(IoT+%26+IS)+%40+MUJ+|+CGPA+9.30;⚡+250%2B+LeetCode+Problems+Solved;🏗️+Building+AI+%2B+IoT+%2B+Web3+Systems;🔬+CNN+Research+Under+Conference+Review;☕+Turning+caffeine+into+production-grade+code)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nysha-katiyar-922b1a276)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nyshakatiyar)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nyshakatiyar43@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/)
-
-<br/>
-
-<!-- Profile Views Counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=nyshakatiyar&color=blueviolet&style=for-the-badge)
+<!-- Social Links -->
+[![LinkedIn](https://img.shields.io/badge/─%20LinkedIn%20─-7c3aed?style=flat-square&logo=linkedin&logoColor=white&labelColor=1e1b4b)](https://linkedin.com/in/nysha-katiyar-922b1a276)
+[![GitHub](https://img.shields.io/badge/─%20GitHub%20─-0f172a?style=flat-square&logo=github&logoColor=white&labelColor=1e1b4b)](https://github.com/nyshakatiyar)
+[![Gmail](https://img.shields.io/badge/─%20Email%20─-be123c?style=flat-square&logo=gmail&logoColor=white&labelColor=1e1b4b)](mailto:nyshakatiyar43@gmail.com)
+[![LeetCode](https://img.shields.io/badge/─%20LeetCode%20─-b45309?style=flat-square&logo=leetcode&logoColor=white&labelColor=1e1b4b)](https://leetcode.com/u/nyshakatiyar/)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## `$ whoami`
 
 ```python
 class Nysha:
-    name       = "Nysha Katiyar"
-    education  = "B.Tech CS (IoT & IS) @ Manipal University Jaipur | CGPA: 9.30"
+    role       = "B.Tech CS (IoT & IS) @ MUJ  |  CGPA: 9.30  |  Dean's List x3"
     location   = "India 🇮🇳"
-    interests  = ["Full Stack Dev", "AI/ML", "IoT", "Web3/Blockchain", "Deep Learning"]
-    currently  = "Building impactful tech at the intersection of AI, IoT & Web3"
-    leetcode   = "250+ problems solved"
-    fun_fact   = "I turn caffeine into code ☕→💻"
-    
-    def get_contact(self):
-        return "nyshakatiyar43@gmail.com"
+    domains    = ["Full Stack Engineering", "AI / Deep Learning", "IoT Security", "Web3 / Solidity"]
+    building   = "AI-powered + blockchain-secured systems with real-world impact"
+    research   = "EMG gesture classification via CNN — paper under conference review 🧠"
+    grind      = "250+ LeetCode problems | NPTEL | Microsoft SEFA | IIC Finalist"
+    fun_fact   = "I debug at midnight and deploy by dawn ☕🌙"
+
+    def say_hello(self):
+        return "Let's build something that matters."
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## `$ ls ./skills`
 
-<div align="center">
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### 💬 Languages
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Languages**
+```
+C / C++        ████████████  Expert
+Python         ████████████  Expert
+JavaScript     ███████████░  Advanced
+Java           ██████████░░  Advanced
+SQL            █████████░░░  Proficient
+HTML / CSS     ████████████  Expert
+```
 
-### 🚀 Frameworks & Libraries
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+**Frameworks & Libraries**
+```
+React · Node.js · Express
+TensorFlow · FastAPI · OpenCV
+Tailwind CSS
+```
 
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+</td>
+<td valign="top" width="50%">
 
-### ⚙️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=for-the-badge&logo=metamask&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white)
+**Databases**
+```
+MySQL · MongoDB · Firebase
+```
 
-</div>
+**DevOps & Infrastructure**
+```
+Docker · Git · Streamlit
+AWS (EC2, S3) · Azure basics
+MQTT · JWT Auth
+```
 
----
+**Web3 & Emerging**
+```
+Solidity · Ethereum · MetaMask
+IoT / OT / SCADA systems
+```
 
-## 🚀 Featured Projects
+**Core CS**
+```
+DSA · OOP · DBMS
+Operating Systems · Computer Networks
+```
 
-<div align="center">
-
-| 🗂️ Project | 🔧 Stack | ✨ Highlights |
-|:---|:---|:---|
-| 🌍 **[Roamly – Smart Tourist Safety](https://github.com/nyshakatiyar)** | MongoDB · Solidity · Mapbox · Tailwind | Real-time tracking for 50+ users · Ethereum smart contracts · SOS dashboard cutting response time by **40%** |
-| 🔐 **[Privacy & Security in IoT](https://github.com/nyshakatiyar)** | MQTT · JWT · FastAPI · Docker | JWT authentication securing **1000+ msg/min** · **90% breach reduction** · Dockerized microservices |
-| 🤖 **[EMG Gesture Recognition](https://github.com/nyshakatiyar)** | Python · CNN · TensorFlow · NinaPro DB2 | DL pipeline for wearable e-tattoos · CNN achieved **77% accuracy** vs RF (59%) and SVM (46%) |
-| 😊 **[Facial Emotion Detection](https://github.com/nyshakatiyar)** | TensorFlow · OpenCV · CNNs · PCA | Real-time webcam inference · **90%+ accuracy** on FER-2013 |
-
-</div>
-
----
-
-## 💼 Work Experience
-
-### 🏢 JSPARK — Software Development Intern *(Jun – Jul 2025)*
-> Backend Developer · India
-
-- 🔨 Built and deployed **12+ RESTful APIs** using Node.js, Express & MySQL
-- ⚡ Improved backend performance by **25%** through query optimization & indexing
-- 🔄 Handled full request lifecycle from routing to DB integration
-
-### 🎭 Litmus Club — Promotions & Curation Coordinator *(Jun 2024 – Feb 2025)*
-> Leadership Role · Manipal University Jaipur
-
-- 🎪 Led promotions for **10+ literary & cultural events**
-- 🤝 Secured **3 external sponsorships** and boosted student engagement through social media strategy
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏆 Achievements & Awards
-
-<div align="center">
-
-🥈 **IIC 2.0 Hackathon Finalist** — Shortlisted among top teams *(Sep 2025)*
-
-🎓 **Dean's List** — GPA: 9.72 · 9.86 · 9.6 *(Aug 2024 – Dec 2025)*
-
-💼 **Microsoft SEFA Program** — Selected as Student Empowerment Participant *(Jun 2024)*
-
-🏅 **Scholar Badges** — Consecutively awarded for academic excellence *(2013–2023)*
-
-🧩 **LeetCode** — Solved **250+ DSA problems**
-
-☁️ **IIT Roorkee E-Summit '26** — Attended workshops on AWS, Azure & Product Development (Myntra, Zomato District)
-
-</div>
-
----
-
-## 📜 Certifications
-
-<div align="center">
-
-| 🏅 Certification | 🏢 Issuer |
-|:---|:---|
-| Data Structures & Algorithms using Java | NPTEL |
-| Design and Analysis of Algorithms | NPTEL |
-| Cyber Job Simulation | Deloitte Australia (Forage) |
-| Mastering Generative AI and ChatGPT | GeeksforGeeks |
-| Building with Claude API | Anthropic |
-| CCNA: Introduction to Networks | Cisco Networking Academy |
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=nyshakatiyar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nyshakatiyar&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="Top Languages"/>
+## `$ cat ./projects.log`
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nyshakatiyar&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+> ### 🌍 Roamly — Smart Tourist Safety & Incident Response
+> **`MongoDB` `Solidity` `Mapbox API` `Tailwind CSS` `MetaMask`**
+>
+> A full-stack **Web3 safety platform** with real-time location tracking for 50+ simulated users, geofencing alerts, and decentralized identity via Ethereum smart contracts + MetaMask. Built an SOS-enabled dashboard that reduced incident reporting time by **40%**.
+>
+> [![View Repo](https://img.shields.io/badge/view_repo-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/nyshakatiyar/Roamly)
+
+---
+
+> ### 🔐 Privacy & Security in IoT Communication
+> **`MQTT` `JWT` `FastAPI` `Docker` `Python`**
+>
+> Designed a **JWT-based auth framework** for MQTT IoT systems securing 900+ message exchanges/min. Prevented unauthorized publish/subscribe access, reducing simulated security breaches by **87%**. Containerized with Docker for scalable deployment.
+>
+> [![View Repo](https://img.shields.io/badge/view_repo-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/nyshakatiyar/pns)
+
+---
+
+> ### 🤖 EMG Gesture Recognition — *Conference Paper Under Review*
+> **`CNN` `TensorFlow` `NinaPro DB2` `Python`**
+>
+> DL pipeline for **EMG-based gesture classification** under simulated motion artifact conditions for wearable e-tattoo systems. CNN achieved **77% peak accuracy**, outperforming Random Forest (59%) and SVM (46%) across four noise levels.
+
+---
+
+> ### 😊 Facial Emotion Detection System
+> **`TensorFlow` `OpenCV` `CNNs` `PCA` `Keras`**
+>
+> Real-time emotion detection using CNNs trained on FER-2013, achieving **90%+ accuracy** with live webcam inference. End-to-end pipeline: preprocessing → training → deployment.
+>
+> [![View Repo](https://img.shields.io/badge/view_repo-7f1d1d?style=flat-square&logo=github&logoColor=white)](https://github.com/nyshakatiyar/emotiondetection)
+
+---
+
+## `$ history | grep work`
+
+**`Jun – Jul 2025`** &nbsp;|&nbsp; 🏢 **JSPARK** — Software Development Intern *(Sovereign AI & Critical Infrastructure · ISO 27001, CMMI L3)*
+- Designed & deployed **12+ RESTful APIs** (Node.js · Express · MySQL) within Agile sprint cycles
+- Improved backend performance by **25%** via query optimization & strategic indexing
+
+**`Jun 2024 – Feb 2025`** &nbsp;|&nbsp; 🎭 **Litmus Club** — Promotions & Curation Coordinator *(Manipal University Jaipur)*
+- Led promotions for **10+ literary & cultural events** · Secured **3 external sponsorships**
+
+---
+
+## `$ cat ./awards.txt`
+
+| &nbsp; | Achievement |
+|:---:|:---|
+| 🥈 | **IIC 2.0 Hackathon Finalist** — Shortlisted among top teams *(Sep 2025)* |
+| 🎓 | **Dean's List ×3** — GPA: 9.72 · 9.86 · 9.6 *(Aug 2024 – Dec 2025)* |
+| 💼 | **Microsoft SEFA Program** — Student Empowerment Participant *(Jun 2024)* |
+| 🧩 | **LeetCode** — 250+ DSA problems solved |
+| ☁️ | **IIT Roorkee E-Summit '26** — Workshops on AWS, Azure & Product Dev (Myntra, Zomato) |
+
+---
+
+## `$ ls ./certs/`
+
+```
+├── Claude API Course ────────────────── Anthropic
+├── Mastering Generative AI & ChatGPT ── GeeksforGeeks
+├── Cyber Job Simulation ─────────────── Deloitte Australia (Forage)
+├── DSA using Java ───────────────────── NPTEL
+├── Design & Analysis of Algorithms ─── NPTEL
+├── DBMS ─────────────────────────────── NPTEL
+└── CCNA: Introduction to Networks ───── Cisco Networking Academy
+```
+
+---
+
+## `$ cat ./education.md`
+
+| 🎓 | Institution | Period | Score |
+|:---:|:---|:---:|:---:|
+| B.Tech CS (IoT & IS) | Manipal University Jaipur | 2023 – 2027 | **9.30 CGPA** |
+| Senior Secondary (XII) | R.S. Public School, Karnal | 2022 – 2023 | **87%** |
+| Secondary (X) | Delhi Public School, Karnal | 2020 – 2021 | **96%** |
+
+---
+
+## `$ git log --stat`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=nyshakatiyar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&ring_color=7c3aed" height="165"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nyshakatiyar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd&langs_count=8" height="165"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nyshakatiyar&theme=tokyonight&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=c4b5fd&sideLabels=a78bfa&dates=6b7280" width="55%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nyshakatiyar&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c084fc" width="95%"/>
+
+</div>
+
+---
+
+<details>
+<summary><b>🐍 Contribution Snake — click to reveal</b></summary>
+<br/>
+<div align="center">
+<img src="https://raw.githubusercontent.com/nyshakatiyar/nyshakatiyar/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
+</div>
+
+> To activate: add [this GitHub Actions workflow](https://github.com/Platane/snk) to your profile repo. The snake auto-generates on a schedule.
+</details>
+
+---
+
+<div align="center">
+
+<svg width="860" height="80" viewBox="0 0 860 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#7c3aed;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#06b6d4;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="80" fill="#0a0a1a" rx="12"/>
+  <rect x="0" y="0" width="860" height="2" fill="url(#fg1)"/>
+  <text x="430" y="38" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a78bfa" text-anchor="middle" font-style="italic">"Code is not just logic — it's craft."</text>
+  <text x="430" y="60" font-family="'Fira Code', monospace" font-size="11" fill="#475569" text-anchor="middle">✦ nyshakatiyar@github · open to opportunities · let's build something amazing ✦</text>
+</svg>
 
 <br/>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nyshakatiyar&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="95%"/>
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nysha-katiyar-922b1a276)
+&nbsp;
+[![Email Me](https://img.shields.io/badge/Email_Me-0e7490?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nyshakatiyar43@gmail.com)
 
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/nyshakatiyar/nyshakatiyar/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
-> **Note:** To enable the snake animation, set up the [GitHub Actions workflow](https://github.com/Platane/snk) in your profile repo.
-
----
-
-## 📚 Education
-
-| 🎓 Degree | 🏫 Institution | 📅 Year | 🏆 Score |
-|:---|:---|:---|:---|
-| B.Tech CS (IoT & IS) | Manipal University Jaipur | 2023 – 2025 | CGPA: **9.30** |
-| Senior Secondary (12th) | R.S. Public School | 2022 – 2023 | **87%** |
-| Secondary (10th) | Delhi Public School | 2020 – 2021 | **96%** |
-
----
-
-<div align="center">
-
-### 💬 Let's Connect & Build Something Amazing!
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nysha-katiyar-922b1a276)
-[![Email Me](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nyshakatiyar43@gmail.com)
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
-
-*"Code is not just logic — it's craft."* ✨
+![Profile Views](https://komarev.com/ghpvc/?username=nyshakatiyar&color=7c3aed&style=flat-square&label=profile+views)
 
 </div>
