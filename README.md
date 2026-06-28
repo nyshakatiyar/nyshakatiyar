@@ -98,7 +98,7 @@
 
 ```python
 class Nysha:
-    role       = "B.Tech CS (IoT & IS) @ MUJ  |  CGPA: 9.30  |  Dean's List x3"
+    role       = "B.Tech CS (IoT & IS) @ MUJ  |  CGPA: 9.40  |  Dean's List x4"
     location   = "India 🇮🇳"
     domains    = ["Full Stack Engineering", "AI / Deep Learning", "IoT Security", "Web3 / Solidity"]
     building   = "AI-powered + blockchain-secured systems with real-world impact"
@@ -222,7 +222,7 @@ Operating Systems · Computer Networks
 | &nbsp; | Achievement |
 |:---:|:---|
 | 🥈 | **IIC 2.0 Hackathon Finalist** — Shortlisted among top teams *(Sep 2025)* |
-| 🎓 | **Dean's List ×3** — GPA: 9.72 · 9.86 · 9.6 *(Aug 2024 – Dec 2025)* |
+| 🎓 | **Dean's List ×3** — GPA: 9.72 · 9.86 · 9.6 · 9.95 *(Aug 2024 – May 2026)* |
 | 💼 | **Microsoft SEFA Program** — Student Empowerment Participant *(Jun 2024)* |
 | 🧩 | **LeetCode** — 250+ DSA problems solved |
 | ☁️ | **IIT Roorkee E-Summit '26** — Workshops on AWS, Azure & Product Dev (Myntra, Zomato) |
